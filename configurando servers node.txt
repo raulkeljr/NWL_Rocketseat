@@ -1,0 +1,35 @@
+com node.js e git bash.
+configurar terminar bash
+
+
+criando server no node
+test o node: node -v
+install npm 
+test o npm: npm -v
+
+instalando os server
+npm init -y (inicia o gerenciamento e cria o packagen.json)
+npm install express
+npm install nodemnon -D (serve para desenvolvimento permite atualização automatica do serve a cada atualização)
+
+comando para rodar o server
+node ..../server.js
+
+comando para rodar o nodemon
+
+npm rum dev (dev é a tag do package.jason que possui o script que ele deve seguir.)
+
+
+no package.jason
+ "scripts": {
+    "dev": "nodemon src/server.js"
+
+////////////////
+Condição IF no option do form 
+ <option value="1" {{"selected" if filters.subject == "1"}}>Artes</option>
+
+condição for 
+{%for x in xs %} - paraca da x na matriz xs faça
+
+{%endfor%}
+                    
